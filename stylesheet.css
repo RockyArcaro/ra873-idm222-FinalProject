@@ -729,6 +729,15 @@ and (min-device-width : 1400px)  {
     font-size: 2em;
     text-align: center;
   }
+  .textboxPosters{
+    background-color:rgba(39, 39, 42, .7);
+    width: 40vw;
+    margin:30px;
+    padding: 20px;
+    font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+  }
   #dragshow{
     width:40vw;
   }
