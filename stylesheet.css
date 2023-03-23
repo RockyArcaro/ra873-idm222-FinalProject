@@ -1,0 +1,781 @@
+body{
+    background-image: url('Pictures/BackgroundImage.png');
+    color:white;
+    background-position: center top;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: PoppinsLight;
+    src: url(Poppins-Light.ttf);
+  }
+  @font-face {
+    font-family: PoppinsThin;
+    src: url(Poppins-Thin.ttf);
+  }
+.navbar{
+    background-color: rgba(0, 0, 0, 0.503);
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding:20px;
+    margin-top: -10px;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.503);
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding:20px;
+    margin-top: -10px;
+}
+.navbarSecondary{
+  background-color: rgba(0, 0, 0, 0.503);
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.navelement{
+    font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.backwards{
+  font-size: 6em;
+  transform: rotateX(180deg);
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -130px;
+  font-family: Poppinslight,Arial, Helvetica, sans-serif;
+  margin-bottom: -100px;
+}
+.blackbackwards{
+  display: flex;
+  justify-content:center ;
+  font-size: 3em;
+  transform: rotateX(180deg);
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -120px;
+  font-family: Poppinslight,Arial, Helvetica, sans-serif;
+}
+.subtitleText{
+    font-family: PoppinsThin, Arial, Helvetica, sans-serif;
+    font-size:4em;
+    display: flex;
+    width: 60vw;
+}
+.profile{
+    display:flex;
+    justify-content:center;
+    border-radius: 50%;
+   }
+.picture{
+  display: flex;
+  flex-direction: row;
+}
+.aboutmebackground{
+  background-image: url(Pictures/AboutMePicture.jpg);
+  background-size: cover;
+}
+#aboutmetitle{
+  display: flex;
+  justify-content:center ;
+  font-size: 3em;
+  color:#27272a;
+  font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+}
+.uxcontainer{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.uxprojects{
+  width: 100vw;
+  margin: 2em;
+}
+.animation{
+  width:100vw;
+  margin:2em;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.posters{
+  width: 50vw;
+}
+.logos{
+  width:50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.titleContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#clicktext{
+  font-family: PoppinsLight,Arial, Helvetica, sans-serif;
+  color:white;
+  display:flex;
+  justify-content: center;
+}
+.smallline{
+  height:2px;
+  background-color:white;
+}
+
+@media only screen
+and (max-device-width : 600px){ 
+   #homebutton{
+    display:none;
+   }
+   .maintitleText{
+    justify-content: center;
+   }
+   .subtitleText{
+    justify-content: center;
+    text-align:center; 
+    margin-top: -60px;;
+   }
+   .profile{
+    justify-content:center;
+    align-content:center;
+    width:30vw;
+   }
+   .GraphicsBoxSmall{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .picture{
+    justify-content: center; 
+    margin:50px;
+    width:30vw;
+  }
+  .smallHomeNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width:70vw;
+    margin:10px;
+    font-size: 2em;
+    color:white;
+    font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.503);
+
+  }
+  .smallHomeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: -10px;
+  }
+  .pagetitles{
+    font-size: 2.25em;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+.graphicdesigncontainer{
+  display: flex;
+  flex-direction:column;
+  align-content: center;
+  justify-items: center;
+}
+.navbarSecondary{
+  background-color: rgba(0, 0, 0, 0.503);
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding:20px;
+  margin-top: -10px;
+}
+.navelement{
+    font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin: 0px 30px 0px;
+    /*display: flex;
+    justify-content: center;*/
+}
+.smallline{
+  background-color: white;
+    width:100vw;
+    height:3px;
+}
+.logos{
+  width: 75vw;
+  margin:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.posters{
+  margin:10px;
+  width:80vw;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#postertitle{
+  margin-top: 200px;
+   font-size: 1.5em;
+}
+.aboutmetext{
+  font-size:1.5em;
+  font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+  display: inline-block;
+  flex-direction: column;
+  align-content: flex-end;
+  line-height: 1.25em;
+  text-indent: 10%;
+}
+.aboutmecontainer{
+  background-color:rgba(39, 39, 42, .7);
+  padding:2em;  
+  margin:1em;
+  display:flex;
+  flex-direction: column;
+  justify-content:end;
+  align-self: flex-end;
+  justify-items: flex-end;
+  margin-top: 825px;
+}
+#backwardssmall{
+  font-size:3.5em;
+  display:flex;
+  justify-content: center;
+  margin-top: -70px;
+}
+#maintitlesmall{
+  font-size: 3.5em;
+  display:flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+.subtitleTextSmall{
+  font-size: 1.5em;
+  font-family: PoppinsLight,Arial, Helvetica, sans-serif;
+  margin-top:80px;
+  display: flex;
+  justify-self: center;
+  align-content: center;
+  text-align: center;
+}
+.profileSmall{
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-end;
+  align-content: flex-end;
+  width:60vw;
+  border-radius: 50%;
+}
+.titleContainer{
+  display: none;
+}
+.textbox{
+  display: none;
+}
+.navelement{
+  font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+  font-size:1.25em;
+  margin: 0px 20px 0px;
+  color:white;
+  text-decoration: none;
+  /*display: flex;
+  justify-content: center;*/
+}
+.GraphicsBox{
+  display: none;
+}
+.aboutmecontainer{
+  background-color:rgba(39, 39, 42, .7);
+  padding:2em;  
+  margin:1em;
+  display:flex;
+  flex-direction: column;
+  justify-content:end;
+  align-self: flex-end;
+  justify-items: flex-end;
+  margin-top: 350px;
+}
+#aboutmetitle{
+    
+  font-size: 2.5em;
+  color:#27272a;
+  margin-top:10px;
+  font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+}
+.blackbackwards{
+  display: flex;
+  justify-content:center ;
+  font-size: 2.5em;
+  transform: rotateX(180deg);
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -35px;
+  font-family: Poppinslight,Arial, Helvetica, sans-serif;
+}
+#pictureSmall{
+  display: flex;
+  justify-content: center;
+}
+#streattext{
+  display:none;
+}
+.dropdowntext{
+  font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  display:none;
+  text-align: center;
+  margin:10px;
+}
+.smallHomeContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profileSmall{
+  border-radius: 50%;
+  width:50vw;
+  margin-top: 60px;
+}
+.small{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#maintitlesmall{
+  font-size: 4em;
+  display:flex;
+  justify-content: center;
+}
+.subtitleTextSmall{
+  font-size: 1.5em;
+  font-family: PoppinsLight,Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-self: center;
+  align-content: center;
+  text-align: center;
+  margin:20px;
+  margin-top: -45px;
+}
+.backwards{
+  font-size: 4em;
+  font-family: Poppinslight,Arial, Helvetica, sans-serif;
+  transform: rotateX(180deg);
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -80px;
+  margin-bottom: 0px;
+}
+.maintitleText{
+  font-size:4em;
+  font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+}
+}
+
+
+
+
+@media only screen
+and (min-device-width : 600px)
+and (max-device-width : 1400px)  { 
+    #clicktext{
+      display:none;
+    }
+    .dropdowntext{
+      font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+      font-size: 1.75em;
+      margin:20px;
+      display:none;
+      text-align: center;
+    }
+    .smallstuff{
+      display:none;
+    }
+    .textbox{
+      background-color:rgba(39, 39, 42, .7);
+      width: 40vw;
+      margin:20px;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      font-size: .5em;
+      display:none;
+    }
+    #postertitle{
+      margin-top: 200px;
+       font-size: 2em;
+    }
+    .pagetitles{
+      font-size: 3em;
+      font-family: PoppinsLight,Arial, Helvetica, sans-serif;
+      display: flex;
+      align-self: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 30px;
+  }
+  .logos{
+    width: 70vw;
+    margin:10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-self:center;
+    align-items: center;
+  }
+  .GraphicsBox{
+    display: none;
+  }
+  .GraphicsBoxSmall{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .navelement{
+    font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+    font-size:1.5em;
+    margin: 0px 20px 0px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    /*display: flex;
+    justify-content: center;*/
+}
+.aboutmetext{
+  font-size: 2em;
+  display: inline-block;
+  flex-direction: column;
+  align-content: flex-end;
+  font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+  line-height: 1.75em;
+  text-indent: 10%;
+}
+.aboutmecontainer{
+  background-color:rgba(39, 39, 42, .7);
+  padding:2em;  
+  margin:1em;
+  display:flex;
+  flex-direction: column;
+  justify-content:end;
+  align-self: flex-end;
+  justify-items: flex-end;
+  margin-top: 600px;
+}
+.aboutmebackground{
+  background-image: url(Pictures/AboutMeBig.JPG);
+  background-size: cover;
+  background-attachment:scroll;
+}
+#aboutmetitle{
+  font-size: 4em;
+  color:#27272a;
+  margin-top:10px;
+  font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+}
+.blackbackwards{
+  display: flex;
+  justify-content:center ;
+  font-size: 4em;
+  transform: rotateX(180deg);
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -70px;
+  font-family: Poppinslight,Arial, Helvetica, sans-serif;
+}
+#pictureSmall{
+  display: none;
+}
+.profile{
+  display: none;
+ }
+.posters{
+  width: 75vw;
+}
+.titleContainer{
+  display: none;
+}
+.smallHomeNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width:70vw;
+    margin:10px;
+    margin-top: 20px;
+    font-size: 2em;
+    color:white;
+    font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.503);
+}
+.smallHomeContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profileSmall{
+  border-radius: 50%;
+  width:50vw;
+  margin-top: 60px;
+}
+.small{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#maintitlesmall{
+  font-size: 4em;
+  display:flex;
+  justify-content: center;
+}
+.subtitleTextSmall{
+  font-size: 2em;
+  font-family: PoppinsLight,Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-self: center;
+  align-content: center;
+  text-align: center;
+  margin:30px;
+  margin-top: -45px;
+}
+.backwards{
+  font-size: 4em;
+  font-family: Poppinslight,Arial, Helvetica, sans-serif;
+  transform: rotateX(180deg);
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -80px;
+  margin-bottom: 0px;
+}
+.maintitleText{
+  font-size:4em;
+  font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+}
+}
+@media only screen
+and (min-device-width : 1400px)  { 
+    .smallHomeNav{
+      display:none;
+    }
+    .small{
+      display:none;
+    }
+    #clicktext{
+      display:none;
+    }
+    .profile{
+      width:30vw;
+      margin-top: 100px;
+     }
+     .picture{
+      justify-content: flex-end; 
+      align-content: baseline;
+      margin:50px;
+      text-align: justify;
+    }
+    .titleContainer{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .navbarSecondary{
+      background-color: rgba(0, 0, 0, 0.503);
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      padding:20px;
+      margin-top: -10px;
+      width: 100vw;
+    }
+    .navelement{
+      font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+      font-size:2.25em;
+      margin: 0px 40px 0px;
+      color:white;
+      text-decoration: none;
+      /*display: flex;
+      justify-content: center;*/
+  }
+  .navelement:hover{
+    font-size:2.5em;
+    transition: font-size .5s;
+  }
+  .aboutmebackground{
+    background-image: url(Pictures/AboutMeBig.JPG);
+    background-size: cover;
+    background-attachment:scroll;
+  }
+  #aboutmetitle{
+    font-size: 5em;
+    color:#27272a;
+    margin-top:50px;
+    font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+  }
+  .blackbackwards{
+    display: flex;
+    justify-content:center ;
+    font-size: 5em;
+    transform: rotateX(180deg);
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -110px;
+    font-family: Poppinslight,Arial, Helvetica, sans-serif;
+  }
+  .aboutmetext{
+    font-size:1.75em;
+    display: inline-block;
+    flex-direction: column;
+    align-content: flex-end;
+    font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    text-indent: 10%;
+  }
+  .aboutmecontainer{
+    background-color:rgba(39, 39, 42, .7);
+    padding:2em;  
+    margin:1em;
+    display:flex;
+    flex-direction: column;
+    justify-content:end;
+    align-self: flex-end;
+    justify-items: flex-end;
+    margin-top: 600px;
+  }
+  .smallline{
+    height:4px;
+    width:60vw;
+    background-color:white;
+  }
+  .pagetitles{
+    font-size: 3em;
+    font-family: PoppinsLight,Arial, Helvetica, sans-serif;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+  .animation{
+    width:65vw;
+  }
+  .uxprojects{
+    width:65vw;
+  }
+  .maintitleText{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size:6em;
+    font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+  }
+  .logos{
+    width:40vw;
+    margin:10px;
+    
+  }
+  .GraphicsBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+  }
+  .GraphicsBoxSmall{
+    display: none;
+  }
+  .textbox{
+    background-color:rgba(39, 39, 42, .7);
+    width: 40vw;
+    margin:30px;
+    padding: 10px;
+    font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+  }
+  #dragshow{
+    width:40vw;
+  }
+  .graphicdesigncontainer{
+    margin-top: 5vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #backwardssmall{
+    display:none;
+  }
+  #maintitlesmall{
+    display:none;
+  }
+  #postertitle{
+    margin-top: 200px;
+     font-size: 3em;
+  }
+  #pictureSmall{
+    display: none;
+  }
+  .whiteout{
+    background-color: white;
+    width:40vw;
+    height:40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .blackout{
+    background-color: black;
+    width:40vw;
+    height:40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logosSmall{
+    width: 30vw;
+    text-align: center;
+    justify-content: center;
+  }
+  .posters{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
